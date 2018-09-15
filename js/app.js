@@ -18,7 +18,7 @@ class Counter extends React.Component {
     render() {
       return (
         <div>
-        <h1>Vous avez {this.state.count} maison.</h1>
+        <h1>Vous avez {this.state.count} maison(s).</h1>
         <button onClick={this.increment}>J'ai une nouvelle maison</button>
         <button onClick={this.decrement}>J'ai perdu une maison</button>
         </div>
