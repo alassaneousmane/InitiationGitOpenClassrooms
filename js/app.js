@@ -20,7 +20,7 @@ class Counter extends React.Component {
         <div>
         <h1>Vous avez {this.state.count} maison(s).</h1>
         <button onClick={this.increment}>J'ai une nouvelle maison</button>
-        <button onClick={this.decrement}>J'ai perdu une maison</button>
+        <button onClick={this.decrement}>J'ai perdu cette maison</button>
         </div>
         
         )
